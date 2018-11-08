@@ -1,4 +1,7 @@
-# ashtakoot [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# Ashtakoot
+[![Build Status](https://travis-ci.org/NeeleshRoy/ashtakoot.svg?branch=master)](https://travis-ci.org/NeeleshRoy/ashtakoot)
+[![Coverage Status](https://coveralls.io/repos/github/NeeleshRoy/ashtakoot/badge.svg?branch=master)](https://coveralls.io/github/NeeleshRoy/ashtakoot?branch=master)
+
 > Gun milan with 8 attributes
 
 ## Installation
