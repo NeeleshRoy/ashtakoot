@@ -8,7 +8,7 @@
 		"url": ""
 	},
 	"files": [ "dist" ],
-	"main": "dist/index.js",
+	"main": "lib/index.js",
 	"keywords": [ "" ],
 	"devDependencies": {
 		"eslint": "^3.1.1",
