@@ -140,9 +140,9 @@ describe('ashtakoot Gun milan - NADI', function () {
 });
 
 describe('ashtakoot Gun milan - Overall', function () {
-  const girl = {moonsign: 5, nakshatra: 15};
-  const boy = {moonsign: 8, nakshatra: 24};
   it('should get the correct gun milan points', function () {
+    const girl = {moonsign: 5, nakshatra: 15};
+    const boy = {moonsign: 8, nakshatra: 24};
     assert.deepEqual(ashtakoot(girl, boy), 25);
   });
 });
