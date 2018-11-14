@@ -13,10 +13,10 @@ $ npm install --save ashtakoot
 ## Usage
 
 ```js
-var ashtakoot = require('ashtakoot');
-var girl = { nakshatra: 9, moonsign: 2 }
-var boy = { nakshatra: 12, moonsign: 7 }
-ashtakoot(girl, boy);
+var ashtakoot = require("ashtakoot")
+var girl = { nakshatra: 15, moonsign: 5 }
+var boy = { nakshatra: 24, moonsign: 8 }
+ashtakoot.getGunMilanPoints(girl, boy) // 25
 ```
 
 ## Nakshatra mappings
