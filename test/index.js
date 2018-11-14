@@ -1,5 +1,5 @@
 import assert from 'assert';
-import ashtakoot from '../dist';
+import ashtakoot from '../lib';
 import {VARNA, VASYA, TARA, YONI, GRAH_MAITRI, GANA, BHAKOOT, NADI} from '../lib/constants';
 
 describe('ashtakoot Gun milan - VARNA', function () {
