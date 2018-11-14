@@ -1,5 +1,5 @@
 import assert from 'assert';
-import ashtakoot from '../lib';
+import ashtakoot from '../dist';
 import {VARNA, VASYA, TARA, YONI, GRAH_MAITRI, GANA, BHAKOOT, NADI} from '../lib/constants';
 
 describe('ashtakoot Gun milan - VARNA', function () {
@@ -143,6 +143,6 @@ describe('ashtakoot Gun milan - Overall', function () {
   it('should get the correct gun milan points', function () {
     const girl = {moonsign: 5, nakshatra: 15};
     const boy = {moonsign: 8, nakshatra: 24};
-    assert.deepEqual(ashtakoot(girl, boy), 25);
+    assert.deepEqual(ashtakoot.getGunMilanPoints(girl, boy), 25);
   });
 });
